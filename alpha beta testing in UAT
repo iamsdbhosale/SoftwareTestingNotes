@@ -1,0 +1,50 @@
+**Alpha and Beta Testing** are types of **User Acceptance Testing (UAT)** done before the final release of the software to the public. Here's a simple explanation:
+
+---
+
+### 🧪 **What is Alpha Testing?**
+
+**Alpha Testing** is done **internally** by the **developers or QA team** at the **developer’s site**.
+
+#### ✅ Key Points:
+- Done **before** Beta Testing.
+- Performed by **internal employees**.
+- Goal: Catch bugs before releasing to real users.
+- Simulates real users using white-box & black-box techniques.
+- May include multiple testing phases (functional, UI, usability, etc.).
+
+> 🔧 Example: A mobile app is tested in-house by the QA team before sharing with selected users.
+
+---
+
+### 🧪 **What is Beta Testing?**
+
+**Beta Testing** is done by **real users** (external users) in a **real environment**, usually after Alpha testing.
+
+#### ✅ Key Points:
+- Performed at **user’s location** (public or private release).
+- Goal: Get feedback on **usability, functionality, performance**.
+- Helps identify bugs that may have been missed.
+- No control over the testing environment.
+
+> 👥 Example: A company releases a beta version of a game to selected players to gather feedback and bug reports.
+
+---
+
+### 🔁 **Alpha vs Beta Testing – Quick Comparison**
+
+| Feature             | Alpha Testing                     | Beta Testing                       |
+|---------------------|-----------------------------------|------------------------------------|
+| **Who tests?**      | Internal team (QA/Dev)            | Real users / customers             |
+| **Where?**          | At developer’s site               | In user’s environment              |
+| **When?**           | Before beta testing               | After alpha, before final release  |
+| **Type of access**  | Controlled and closed             | Open or limited user group         |
+| **Purpose**         | Catch bugs early                  | Get user feedback, detect real-world issues |
+
+---
+
+### 🎯 Why Are They Important?
+
+- **Alpha testing** ensures the product is stable and ready for real-world exposure.
+- **Beta testing** provides real-user feedback that helps improve product quality and usability.
+---
