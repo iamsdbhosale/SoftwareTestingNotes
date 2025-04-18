@@ -1,0 +1,132 @@
+Sure! Here's a **detailed explanation of the Levels of Testing** in the Software Testing Life Cycle (STLC), with **examples** to help you understand better:
+
+---
+
+## 🧪 Levels of Testing in Software Testing
+
+There are **four main levels** of testing that ensure software works correctly from the smallest piece to the complete system:
+
+---
+
+### 1️⃣ **Unit Testing**
+
+🔹 **What is it?**  
+Testing **individual components or functions** of the software in isolation (e.g., functions, classes, methods).
+
+🔹 **Who performs it?**  
+Usually done by **developers**.
+
+🔹 **Purpose:**  
+To verify that each **unit of the code performs as expected**.
+
+🔹 **Tools:**  
+JUnit (Java), NUnit (.NET), PyTest (Python)
+
+🔹 **Example:**  
+You have a calculator app with a function `add(a, b)`.  
+In unit testing, you test:
+```python
+assert add(2, 3) == 5
+assert add(-1, 1) == 0
+```
+
+Each function is tested **individually**, without relying on other parts of the app.
+
+---
+
+### 2️⃣ **Integration Testing**
+
+🔹 **What is it?**  
+Testing the **interaction between multiple modules** or components after unit testing.
+
+🔹 **Who performs it?**  
+Developers or Testers.
+
+🔹 **Purpose:**  
+To ensure that **modules work together properly** (data flow, communication).
+
+🔹 **Types:**  
+- Big Bang Integration  
+- Top-Down  
+- Bottom-Up  
+- Sandwich
+
+🔹 **Tools:**  
+Postman (for APIs), JUnit with Spring, TestNG
+
+🔹 **Example:**  
+A login module has:
+- Frontend form
+- Backend API to check credentials
+- Database
+
+In integration testing, you check:
+- Is data correctly passed from form to API?
+- Does the API communicate with the database and return the correct result?
+
+---
+
+### 3️⃣ **System Testing**
+
+🔹 **What is it?**  
+Testing the **entire application as a whole** in a complete and integrated environment.
+
+🔹 **Who performs it?**  
+Dedicated QA Testers.
+
+🔹 **Purpose:**  
+To validate the **complete functionality** of the application against the requirements.
+
+🔹 **Types of testing involved:**  
+- Functional Testing  
+- Non-functional Testing (Performance, Security)  
+- UI Testing  
+- Compatibility Testing
+
+🔹 **Tools:**  
+Selenium, QTP/UFT, TestComplete
+
+🔹 **Example:**  
+In an e-commerce app, test the **complete flow**:
+- Browse products
+- Add to cart
+- Checkout
+- Make payment
+- Receive confirmation
+
+Every part of the system is tested **end-to-end**.
+
+---
+### 4️⃣ **Acceptance Testing**
+
+🔹 **What is it?**  
+Final level of testing to check if the **software meets business requirements** and is **ready for delivery**.
+
+🔹 **Who performs it?**  
+Client, End Users, or Product Owner.
+
+🔹 **Purpose:**  
+To verify that the product works as expected in the **real-world use case**.
+
+🔹 **Types:**
+- **Alpha Testing** (in-house)
+- **Beta Testing** (external users)
+
+🔹 **Example:**  
+Client checks:
+- Can a customer place an order successfully?
+- Are email notifications working?
+- Is UI user-friendly?
+
+If everything meets their expectations, they accept the product.
+
+---
+## 🧩 Summary Table:
+
+Level               | Performed By     | Scope                 | Example
+------------------- | ---------------- | ----------------------| ---------------------------------------------
+Unit Testing        | Developers       | Individual functions  | Test add() function in a calculator app
+Integration Testing | Dev/Testers      | Connected modules     | Check login API with database
+System Testing      | QA Team          | Entire system         | End-to-end test of eCommerce purchase flow
+Acceptance Testing  | Clients/Users    | Business requirements | Client approves app based on real use cases
+---
