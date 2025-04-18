@@ -1,0 +1,37 @@
+🧪 What is Functional Testing?
+✅ Definition
+Functional Testing checks what the system does – it validates the business requirements and features of the software.
+
+Type                          | Purpose
+----------------------------- | -------------------------------------------------------------
+Unit Testing                  | Test individual functions or units
+Integration Testing           | Test data flow between modules
+System Testing                | Test the whole system as a complete unit
+Regression Testing            | Ensure old features still work after changes
+User Acceptance Testing (UAT) | Ensure the product meets business needs
+---
+
+⚙️ What is Non-Functional Testing?
+✅ Definition
+Non-Functional Testing checks how the system works – it validates the performance, usability, security, and reliability.
+
+
+Type                  | Purpose
+----------------------|--------------------------------------------------------
+Performance Testing   | Check speed and responsiveness
+Load Testing          | Check performance under load
+Stress Testing        | Check system under extreme conditions
+Security Testing      | Check for vulnerabilities and data safety
+Compatibility Testing | Check if it works across devices/browsers
+Usability Testing     | Check user-friendliness
+
+---
+
+Feature        | Functional Testing                 | Non-Functional Testing
+---------------|------------------------------------|-----------------------------------------------
+Focus          | What the system does               | How the system performs
+Tests          | Features, business logic           | Speed, security, UI, scalability
+Performed by   | QA / Testers                       | QA, Performance & Security Teams
+Tools          | Playwright, Postman                | JMeter, LoadRunner, OWASP ZAP
+Example        | Is login working?                  | Does login page load in 2 seconds?
+---
