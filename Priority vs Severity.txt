@@ -1,0 +1,14 @@
+Feature     | Severity                                       | Priority
+----------- | ---------------------------------------------  | ----------------------------------------------
+Definition  | Impact of the bug on the functionality         | Urgency of fixing the bug
+Focus       | Technical aspect                               | Business/Customer aspect
+Set by      | Testers                                        | Project Managers / Developers
+Types       | Critical, Major, Moderate, Minor, Trivial      | Highest, High, Medium, Low, Lowest
+---
+Types of Severity classify the impact of an issue or bug on a system, for example:
+Critical – System crash or data loss: e.g., app crashes on launch.
+Major – Key feature broken: e.g., login not working.
+Moderate – Noticeable but workaround exists: e.g., email notification delayed.
+Minor – Non-critical feature issue: e.g., profile picture not updating.
+Trivial – Cosmetic issue: e.g., typo in help text.
+---

@@ -1,0 +1,48 @@
+The Agile Model in SDLC is a modern software development approach that focuses on iterative development, collaboration, customer feedback, and flexibility.
+
+🔄 What is Agile Model in SDLC?
+The Agile Model is a process framework where the project is divided into small parts called iterations or sprints (usually 2 to 4 weeks long). Each sprint delivers a working feature or module of the software.
+
+✅ Key Features of Agile Model:
+Iterative & Incremental: The product is built step-by-step in short cycles.
+Customer Collaboration: Continuous feedback is taken from the customer after each sprint.
+Flexibility: Requirements can be changed even in later stages.
+Faster Delivery: Working features are delivered early and frequently.
+Cross-functional Teams: Developers, testers, designers work together.
+
+🧩 Phases in Agile SDLC
+Concept / Requirement Gathering
+	Basic requirements are discussed with the client.
+Sprint Planning
+	Decide what features will be delivered in the current sprint.
+Design
+	Simple design for selected features in the sprint.
+Development
+	Developers write code for the features.
+Testing
+	Manual/automated testing is done within the sprint.
+Demo / Review
+	Working software is shown to the client for feedback.
+Retrospective
+	Team reviews what went well and what can be improved.
+
+Next Sprint Begins
+📅 What is a Sprint?
+A Sprint is a fixed period (usually 2 weeks) in which specific features are developed and tested. At the end of the sprint, a working product is delivered.
+
+📘 Popular Agile Frameworks:
+Scrum
+Kanban
+
+✅ Benefits of Agile Model:
+	Quick adaptation to changes
+	Early and continuous delivery
+	Better quality due to continuous testing
+	Frequent customer involvement
+---
+🔁 Real-Life Example:
+Imagine building an eCommerce app:
+Sprint 1: Login/Signup feature
+Sprint 2: Product listing
+Sprint 3: Cart & Checkout Each sprint adds a working piece, and customer can give feedback in each round.
+---

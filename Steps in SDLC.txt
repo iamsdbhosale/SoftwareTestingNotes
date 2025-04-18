@@ -1,0 +1,38 @@
+🔁 Steps in SDLC (Software Development Life Cycle)
+1. Requirement Gathering & Analysis
+👉 In this phase, business analysts and stakeholders gather all the business needs.
+	* Understand what the client wants.
+	* Document functional and non-functional requirements.
+	* Create Requirement Specification documents (like BRD, SRS).
+
+2. Planning
+👉 This phase involves defining the scope, timelines, and resources.
+	* Create a project plan.
+	* Risk analysis and mitigation planning.
+	* Define roles and responsibilities.
+
+3. Design
+👉 Based on the requirements, technical architects and designers create the system architecture.
+	* High-Level Design (HLD): System architecture, tech stack.
+	* Low-Level Design (LLD): Component-level design, UI mockups.
+
+4. Development (Implementation)
+👉 Developers start coding the software according to the design documents.
+	* Frontend and backend development.
+	* Code review and unit testing.
+
+5. Testing
+👉 QA (Quality Assurance) team tests the application to ensure it meets the requirements.
+	* Types of testing: Functional, Regression, Integration, System, UAT, etc.
+	* Bug reporting and re-testing.
+
+6. Deployment
+👉 The tested application is deployed to a production/live environment.
+	* Done in phases or full release.
+	* May involve staging/pre-production environments first.
+
+7. Maintenance & Support
+👉 After release, the product is monitored, bugs are fixed, and updates are applied as needed.
+	* Handle user feedback and support.
+	* Apply patches and upgrades.
+---
