@@ -1,0 +1,55 @@
+Agile V-Model :
+-------------
+
+                Requirements (User Stories)         Acceptance Testing
+                         \                                   /
+                          \     <--- Iteration --->         /
+                   System Design (Sprint Planning)   System Testing
+                            \                             /
+                             \   <--- Iteration --->     /
+                     High-Level Design           Integration Testing
+                               \                       /
+                                \ <--- Iteration ---> /
+                          Low-Level Design         Unit Testing
+                                  \                 /
+                                   \               /
+                                    \   Coding    /
+                                     \  (Build)  /
+                                      \_________/
+
+Let's tweak the V-Model to reflect an Agile approach, where development and testing happen iteratively and collaboratively.
+---
+Term         | Question Answered                | Example
+-------------|----------------------------------|--------------------------------------------
+Verification | Are we building it right?        | Reviewing requirements, designs, code
+Validation   | Are we building the right thing? | Running and testing the software
+---
+Term | Role             | Activity                              | Type
+-----|------------------|---------------------------------------|------------
+QA   | Prevents defects | Process checks, standards enforcement | Verification
+QC   | Detects defects  | Actual software testing               | Validation
+---
+✅ Quality Assurance (QA) = Verification
+QA is process-oriented.
+	It ensures that the right processes, standards, and practices are followed during software development.
+	It doesn’t involve actual testing of the product.
+	Focus: “Are we building the product right?”
+🔍 Example:
+	Creating a checklist to ensure all requirements are reviewed.
+	Ensuring every sprint includes a code review and documentation check.
+---
+✅ Quality Control (QC) = Validation (includes Testing)
+	QC is product-oriented.
+	It focuses on finding defects in the actual product by testing it.
+	Focus: “Are we building the right product?”
+
+🧪 Example:
+	Executing test cases.
+	Reporting bugs.
+	Performing regression testing, UAT, etc.
+---
+So yes, in casual conversation, people often say:
+"QA is verification, QC is testing."
+But in interviews or documentation, it's better to clarify:
+QA focuses on process (verification), QC includes testing (validation).
+---
